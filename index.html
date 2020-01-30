@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wantedly-auto-fill" data-last_name="lastName" data-first_name="firstName" data-working_history_text="history" style="border: 0;"></div> <script> (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://platform.wantedly.com/auto_fill/script.js"; fjs.parentNode.insertBefore(js, fjs); }(document, "script", "wantedly-auto-fill-wjs")); </script>
+    
+    <form action="GET">
+        <div>
+            <label for="firstName">名</label>
+            <br />
+            <input type="text" name='firstName' />
+        </div>
+        <div>
+            <label for="lastName">姓</label>
+            <br />
+            <input type="text" name='lastName' />
+        </div>
+        <div>
+            <label for="history">経歴</label>
+            <br />
+            <textarea name='history'></textarea>
+        </div>
+    </form>
+</body>
+</html>
